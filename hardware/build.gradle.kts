@@ -65,8 +65,9 @@ android {
 addGithubPackagesRepository()
 
 kmmbridge {
-    //frameworkName.set("hardware")
     mavenPublishArtifacts()
-    //spm(useCustomPackageFile = true, spmDirectory = "./../MirabilisBluePackage")
-    spm()
+    spm(
+        useCustomPackageFile = true,
+        spmDirectory = "./../MirabilisBluePackage"
+    )
 }
