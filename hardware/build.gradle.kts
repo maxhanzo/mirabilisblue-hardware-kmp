@@ -5,7 +5,6 @@ plugins {
     alias(libs.plugins.android.library)
     alias(libs.plugins.native.coroutines)
     alias(libs.plugins.kmmbridge)
-//    alias(libs.plugins.skie)
     alias(libs.plugins.ksp)
     `maven-publish`
 }
@@ -30,8 +29,8 @@ kotlin {
             isStatic = true
         }
 
-          pod("KMPNativeCoroutinesAsync","1.0.0-ALPHA-39")
-          pod("KMPNativeCoroutinesCombine","1.0.0-ALPHA-39")
+        // pod("KMPNativeCoroutinesAsync","1.0.0-ALPHA-39")
+        // pod("KMPNativeCoroutinesCombine","1.0.0-ALPHA-39")
     }
 
 

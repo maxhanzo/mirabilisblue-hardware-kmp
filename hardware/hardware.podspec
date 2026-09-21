@@ -9,8 +9,7 @@ Pod::Spec.new do |spec|
     spec.vendored_frameworks      = 'build/cocoapods/framework/hardware.framework'
     spec.libraries                = 'c++'
     spec.ios.deployment_target    = '16.0'
-    spec.dependency 'KMPNativeCoroutinesAsync', '1.0.0-ALPHA-39'
-    spec.dependency 'KMPNativeCoroutinesCombine', '1.0.0-ALPHA-39'
+                
                 
     if !Dir.exist?('build/cocoapods/framework/hardware.framework') || Dir.empty?('build/cocoapods/framework/hardware.framework')
         raise "
